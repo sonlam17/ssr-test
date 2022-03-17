@@ -4,13 +4,12 @@ import { BlogComponent } from './blog.component';
 import { PostListComponent } from './components/post-list/post-list.component';
 import { RouterModule } from '@angular/router';
 import { routes } from './blog.routes';
-import { AaaComponent } from './aaa/aaa.component';
-
+import { PostComponent } from "./components/post/post.component";
 @NgModule({
   declarations: [
     BlogComponent,
     PostListComponent,
-    AaaComponent
+    PostComponent
   ],
   imports: [
     CommonModule,
